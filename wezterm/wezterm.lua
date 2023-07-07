@@ -24,7 +24,7 @@ config.window_background_opacity = 0.8
 config.font_size = 13
 
 -- tab bar
-config.enable_tab_bar =  true -- default
+config.enable_tab_bar =  false
 config.use_fancy_tab_bar = true --default
 
 config.window_frame = {
