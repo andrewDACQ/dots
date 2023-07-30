@@ -1,0 +1,20 @@
+
+window:
+  opacity: 0.85
+  padding:
+    x: 10
+    y: 10
+  dynamic_padding: false
+  decorations: none
+
+font:
+  normal:
+    family: "Hack Nerd Font"
+  size: 17
+
+shell:
+   program: /opt/homebrew/bin/fish
+
+import:
+  - ~/.config/alacritty/themes/TokyoNight.yml
+  - ~/.config/alacritty/bindings.yml
