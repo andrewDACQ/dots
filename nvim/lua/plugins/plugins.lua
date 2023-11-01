@@ -1,7 +1,8 @@
 return {
   "LazyVim/LazyVim",
   opts = {
-    colorscheme = "catppuccin",
+    colorscheme = "habamax",
   },
   "christoomey/vim-tmux-navigator",
+  "github/copilot.vim",
 }

@@ -1,4 +1,3 @@
-
 if status is-interactive
     # Commands to run in interactive sessions can go here
     set -g fish_greeting
@@ -17,3 +16,6 @@ if not string match -q -- $PNPM_HOME $PATH
     set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+
+# ensure that brew is properly configured
+set -gx PATH /opt/homebrew/bin $PATH
